@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazes.Core", "Mazes.Core\Mazes.Core.csproj", "{45737800-A5BC-4994-AFC4-B50701110263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ED546310-F754-4D4C-AE37-D2C5ABB3BE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazes.Core.Tests", "Mazes.Core.Tests\Mazes.Core.Tests.csproj", "{45869A56-2064-450A-88E1-BF73C19D8118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazes.ConsoleApp", "Mazes.ConsoleApp\Mazes.ConsoleApp.csproj", "{03DACB2A-6942-4F4B-8743-DBA2A6C9E252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazes.Wpf", "Mazes.Wpf\Mazes.Wpf.csproj", "{DDA254E5-A49D-4E41-938B-B40C4DD9F15E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66DBAFB0-10CA-4755-939D-1F201520AAC8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45737800-A5BC-4994-AFC4-B50701110263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45737800-A5BC-4994-AFC4-B50701110263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45737800-A5BC-4994-AFC4-B50701110263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45737800-A5BC-4994-AFC4-B50701110263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45869A56-2064-450A-88E1-BF73C19D8118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45869A56-2064-450A-88E1-BF73C19D8118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45869A56-2064-450A-88E1-BF73C19D8118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45869A56-2064-450A-88E1-BF73C19D8118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DACB2A-6942-4F4B-8743-DBA2A6C9E252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DACB2A-6942-4F4B-8743-DBA2A6C9E252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DACB2A-6942-4F4B-8743-DBA2A6C9E252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DACB2A-6942-4F4B-8743-DBA2A6C9E252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA254E5-A49D-4E41-938B-B40C4DD9F15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA254E5-A49D-4E41-938B-B40C4DD9F15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA254E5-A49D-4E41-938B-B40C4DD9F15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA254E5-A49D-4E41-938B-B40C4DD9F15E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45869A56-2064-450A-88E1-BF73C19D8118} = {ED546310-F754-4D4C-AE37-D2C5ABB3BE73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A0FA14-29A4-43D1-A99C-661A1C5526D9}
+	EndGlobalSection
+EndGlobal
